@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar */
+
+.navbar{
+    background-color: black;
+    height: 90px;
+    padding: 20px 250px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+nav ul{
+    display: flex;
+    gap: 30px;
+}
+
+nav li{
+    list-style: none;
+    font-size: 18px;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+}
+
+nav a:visited{
+    color: red;
+}
+
+/* Header */
+
+.header{
+    background-color: rgb(49, 49, 49);
+    background-image: url("./asset/image/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 130%;
+    background-blend-mode: multiply;
+    height: 100vh;
+}
+
+.header-div{
+    text-align: center;
+    padding: 15% 20%
+}
+
+.header-div h1{
+    font-size: 64px;
+    color: white;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.h1-color{
+    color: red;
+}
+
+.header-div p{
+    color: white;
+    margin-bottom: 20px;
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.primary-btn{
+    height: 55px;
+    width: 200px;
+    font-size: 20px;
+    padding: 15px 25px;
+    border: none;
+    color: white;
+    background-color: brown;
+    cursor: pointer;
+}
+
+.btn2{
+    color: red;
+    background-color: white;
+}
+
+/* Service Section */
+
+.service{
+    background-color: rgb(22, 18, 18);
+    background-image: url("./asset/image/footer-bg.png");
+    background-repeat:repeat;
+    background-size: 60%;
+    background-blend-mode: multiply;
+    height: 100vh;
+}
+
+.serive-description{
+    color: white;
+    padding: 6% 10%;
+}
+
+.serive-description h1{
+    font-size: 32px;
+    margin: 15px 0px;
+}
+
+.serive-description p{
+    margin-bottom: 15px;
+    width: 50%;
+}
+
+.btn3{
+    border-radius: 12px;
+    background-color: antiquewhite;
+    color: black;
+    cursor: default;
+}
+
+.service-img{
+    width: 100px;
+    height: 100px;
+    border: none;
+    border-radius: 50%;
+}
+
+
+.author-full{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    border-right: 1px solid red;
+    height: 100px;
+    width: 250px;
+}
